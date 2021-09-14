@@ -14,6 +14,9 @@
 		CDADFC5026E78D700026337A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADFC4F26E78D700026337A /* Game.swift */; };
 		CDADFC5826E79EB80026337A /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADFC5726E79EB80026337A /* BullseyeTests.swift */; };
 		CDEE954526EFAFA600119A37 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE954426EFAFA600119A37 /* TextViews.swift */; };
+		CDEE954926F0398400119A37 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE954826F0398400119A37 /* Shapes.swift */; };
+		CDEE954B26F0642900119A37 /* RoundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE954A26F0642900119A37 /* RoundViews.swift */; };
+		CDEE954D26F07CB700119A37 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE954C26F07CB700119A37 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		CDADFC5726E79EB80026337A /* BullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeTests.swift; sourceTree = "<group>"; };
 		CDADFC5926E79EB80026337A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDEE954426EFAFA600119A37 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		CDEE954826F0398400119A37 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		CDEE954A26F0642900119A37 /* RoundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViews.swift; sourceTree = "<group>"; };
+		CDEE954C26F07CB700119A37 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,9 @@
 			children = (
 				CD79447F26E6179200A0B8D4 /* ContentView.swift */,
 				CDEE954426EFAFA600119A37 /* TextViews.swift */,
+				CDEE954826F0398400119A37 /* Shapes.swift */,
+				CDEE954A26F0642900119A37 /* RoundViews.swift */,
+				CDEE954C26F07CB700119A37 /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -232,8 +241,11 @@
 			files = (
 				CD79448026E6179200A0B8D4 /* ContentView.swift in Sources */,
 				CDADFC5026E78D700026337A /* Game.swift in Sources */,
+				CDEE954926F0398400119A37 /* Shapes.swift in Sources */,
+				CDEE954D26F07CB700119A37 /* BackgroundView.swift in Sources */,
 				CDEE954526EFAFA600119A37 /* TextViews.swift in Sources */,
 				CD79447E26E6179200A0B8D4 /* BullseyeApp.swift in Sources */,
+				CDEE954B26F0642900119A37 /* RoundViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

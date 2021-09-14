@@ -9,12 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var alertIsVisible = false
-    @State private var sliderValue = 10.0
+    @State private var sliderValue = 50.0
     @State private var game = Game()
     var body: some View {
         ZStack {
-            Color("BackgroundColor")
-                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            BackgroundView(game: $game)
             VStack {
                 InstructionView(game: $game)
                 sliderView(sliderValue: $sliderValue)
@@ -72,6 +71,11 @@ struct HitMeButtonView: View {
         
         .foregroundColor(.white)
         .cornerRadius(21)
+        .overlay(
+            RoundedRectangle(cornerRadius: 21)
+//                .stroke(Color.white, lineWidth: 2)
+                .strokeBorder(Color.white, lineWidth: 2.0)
+        )
         
          
         .alert(isPresented: $alertIsVisible, content: {
